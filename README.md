@@ -8,3 +8,8 @@
 <br/>
 
 **Second Step:** On checking train images you will notice some images are in wrong directories. For instance, 1011.jpg is clearly a police car so it should be in class_1 directory rather than class_0. Next step is to manually picking these images and placing them into correct directories. There are few of these.
+
+<br/>
+
+**Third Step:** Creating CNN model and training train_images. When satisfied with the model created, test on test_images and generate the "submission.csv". On submitting to https://datahack.analyticsvidhya.com/contest/janatahack-computer-vision-hackathon/#SolutionChecker,
+final accuracy score that came was **0.743**
